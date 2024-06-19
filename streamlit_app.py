@@ -4,6 +4,14 @@ from PIL import Image
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
+background_color = '''
+<style>
+body {
+    background-color: #f0f2f6;
+}
+</style>
+'''
+
 #####################
 # Header 
 st.write('''
