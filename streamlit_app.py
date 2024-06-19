@@ -148,7 +148,7 @@ txt4('Sales Dashboard', 'Convert excel data into the graphical data, easy to und
 txt4('Dashboard', 'Sales progress dashboard to understand monthly, Quarterly and yearly understanding to business growth', 'https://salaes-progress.streamlit.app/')
 txt4('Adidas Dashboard', 'This dashboard use to cover the various areas in business and help in getting the strong decision','https://salesdashboard1.streamlit.app/')
 txt4('Streamlit Website', 'Website that gives information of business and very attractive', 'http://')
-txt4('Resume', 'It gives the great look for the resume along with the url to quickly viewable on a click','http://codes.bio/cryoprotect/')
+txt4('Resume', 'It gives the great look for the resume along with the url to quickly viewable on a click','https://uzair-resume.streamlit.app/')
 txt4('Hotel Reservations Analysis', 'Hotel sales reservation cancellation analyze to see from different angles for the reason and to improve it from the raw data', 'https://github.com/uzairrajput100/hotel_sales_analysis')
 txt4('Ecommerce Sales Analyss', 'Analyze the increase in the online sales from region, state and city wise to make an decision for starting up business and checked revenue and ROI', 'https://github.com/uzairrajput100/Ecommerce_Sales_Analysis')
 txt4('Telecom Churn Ratio Analyze', 'From the raw data of telecom take the analyzation about churn in the region, area, sales, profit and reasons of churning', 'http://')
