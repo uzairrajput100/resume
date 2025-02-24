@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from streamlit_to_pdf import streamlit_to_pdf
+import pdfkit
 
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
@@ -176,4 +176,14 @@ txt2('Email', 'uzairrajput100@gmail.com')
 txt2('Phone', '+92-333-6611988')
 
 if st.button("Download as PDF"):
-    streamlit_to_pdf("your_resume.pdf")
+    html = st.get_html()
+    options = {
+        'page-size': 'A4',
+        'margin-top': '0.75in',
+        'margin-right': '0.75in',
+        'margin-bottom': '0.75in',
+        'margin-left': '0.75in',
+        'encoding': "UTF-8",
+        'no-outline': None
+    }
+    pdfkit.from_string(html, "your_resume.pdf", options=options)
