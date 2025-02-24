@@ -176,14 +176,10 @@ txt2('Email', 'uzairrajput100@gmail.com')
 txt2('Phone', '+92-333-6611988')
 
 if st.button("Download as PDF"):
-    html = st.get_html()
-    options = {
-        'page-size': 'A4',
-        'margin-top': '0.75in',
-        'margin-right': '0.75in',
-        'margin-bottom': '0.75in',
-        'margin-left': '0.75in',
-        'encoding': "UTF-8",
-        'no-outline': None
-    }
-    pdfkit.from_string(html, "your_resume.pdf", options=options)
+    @st.cache
+    def get_html():
+        return st.get_static_html()
+
+    html = get_html()
+    config = pdfkit.configuration(wkhtmltopdf='Downloads')
+    pdfkit.from_string(html, "your_resume.pdf", configuration=config, options={"page-size": "A4"})
