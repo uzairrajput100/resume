@@ -176,9 +176,9 @@ txt2('Email', 'uzairrajput100@gmail.com')
 txt2('Phone', '+92-333-6611988')
 
 if st.button("Download as PDF"):
-    def get_html():
-        return st.get_static_html()
+    # Get the HTML of the resume app
+    html = st.components.v1.html("<html>" + st.get_page_html() + "</html>")
 
-    html = get_html()
+    # Use pdfkit to generate the PDF from the HTML
     config = pdfkit.configuration(wkhtmltopdf='Downloads')
-    pdfkit.from_string(html, "your_resume.pdf", configuration=config, options={"page-size": "A4"})
+    pdfkit.from_string(html, "your_resume.pdf", configuration=config, options={"page-size": "A4"}
