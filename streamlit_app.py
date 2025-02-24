@@ -115,7 +115,7 @@ st.markdown('''
 ## Work Experience
 ''')
 txt('**AI, ML and Data Analyst/Analytic**, Freelance',
-'2021-Present')
+'2023-Present')
 
 st.markdown('''
 Results-driven AI, ML, and Data Analyst leveraging technical expertise to drive business growth through data-driven insights.
