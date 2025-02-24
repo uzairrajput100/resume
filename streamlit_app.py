@@ -15,7 +15,7 @@ body {
 #####################
 # Header 
 st.write('''
-# Uzair Ahmed, Master Business Administration Sales and Data Analyst
+# Uzair Ahmed, Data Scientist
 ##### *Resume* 
 ''')
 
@@ -103,49 +103,38 @@ st.markdown('''
 ## Education
 ''')
 
-txt('**Master Business Aministration** (Sales), *University of Sindh*, Pakistan',
-'2011-2014')
+txt('**Master Business Aministration**, *University of Sindh*, Pakistan',
+'2011-2013')
 
-txt('**Bachelors of Commerce** (Finance), *University of Sindh*, Pakistan',
-'2008-2010')
+txt('**Bachelors of Commerce**, *University of Sindh*, Pakistan',
+'2007-2009')
 
 #####################
 st.markdown('''
 ## Work Experience
 ''')
-txt('**Data Analyst**, Visualization , Interactive Dashboards, Freelance',
+txt('**AI, ML and Data Analyst/Analytic**, Freelance',
 '2021-Present')
 
-txt('**Sales Manager**, Confidential , Pakistan',
-'2021-Present')
+st.markdown('''
+- Results-driven AI, ML, and Data Analyst leveraging technical expertise to drive business growth through data-driven insights.
+''')
 
-txt('**Assistant Sales Manager**, Teltonika, Pakistan',
-'2012-2021')
-txt('**Sales Executive**, Cybernet, Pakistan',
-'2019-2021')
-txt('**Customer Service Representative**, MEA Resource Solution, Dubai',
+txt('**Senior Sales Manager**, Teltonika IoT Group , Pakistan',
+'2023-Present')
+
+txt('**Logistics / Document Officer**, Sea Prince Logistics (Dubai), Pakistan',
+'2021-2023')
+txt('**Sales Manager**, Teltonika IoT Group , Pakistan',
+'2020-2021')
+txt('**Senior Sales Executive**, Cybernet, Pakistan',
+'2019-2020')
+txt('**Customer Service Representative**, RTA, Dubai',
 '2016- 2018')
 txt('**Business Development Executive**, Eurostar, Etisalat, Dubai',
 '2015-2016')
 txt('**Team Lead**, PTCL, Etisalat, Pakistan',
-'2014-2015')
-txt('**Sales Executive**, PTCL, Etisalat, Pakistan',
-'2011-2013')
-st.markdown('''
-- Data Mining, Scientific Research and Presentation, Research Methodology, Graduate Seminar, Programming for Health Data Science, etc.
-- Provided mentorship and supervision to junior staff, recruiting new employees and managing business growth.
-- Acheived individual and team targets by up selling, cross selling to B2B clients.
-- Focusing on B2B targets and achieving them by 135% from national and international sales. 
-- Sell ERP with source code in 100k USD.
-- I worked on smart city project and sell 250 devices which is around 8 Million PKR.
-- Worked on govt: and private organization on the project basis to fulfill the M2M requirement.
-- Monthly customer subscription above from target achieved around 400k monthly.    
-- Focusing on B2B targets and achieving them by 120% from the 2nd month in Dubai with d2d visits and cold calling to clients.
-- Earn 5.5k Aed commission monthly apart from salary and generating revenue of up to 55K Aed monthly above from the target.        
-- Managing a team of `10` sales executives and interns to ensure KPIs are strategically achieved monthly, quarterly and yearly targets. 
-- Actively took part in the talent hiring process as well as train employees with the product and services we are offering.
-- Giving services for data analyzing, graphical representations of data, interactive dashboards, websites, mobiles apps, ERP, SaaS and designing.
-''')
+'2011-2015')
 
 #####################
 st.markdown('''
@@ -155,11 +144,13 @@ txt4('Support Ticket', 'Support ticket dashboard design to easily understand res
 txt4('Sales Dashboard', 'Convert excel data into the graphical data, easy to understand and decision making', 'https://sales-dashboard1.streamlit.app/')
 txt4('Dashboard', 'Sales progress dashboard to understand monthly, Quarterly and yearly understanding to business growth', 'https://salaes-progress.streamlit.app/')
 txt4('Adidas Dashboard', 'This dashboard use to cover the various areas in business and help in getting the strong decision','https://salesdashboard1.streamlit.app/')
-txt4('Streamlit Website', 'Website that gives information of business and very attractive', 'http://')
+txt4('Streamlit Website', 'Website that gives information of business and very attractive', 'https://uzair-resume.streamlit.app/')
 txt4('Resume', 'It gives the great look for the resume along with the url to quickly viewable on a click','https://uzair-resume.streamlit.app/')
 txt4('Hotel Reservations Analysis', 'Hotel sales reservation cancellation analyze to see from different angles for the reason and to improve it from the raw data', 'https://github.com/uzairrajput100/hotel_sales_analysis')
 txt4('Ecommerce Sales Analyss', 'Analyze the increase in the online sales from region, state and city wise to make an decision for starting up business and checked revenue and ROI', 'https://github.com/uzairrajput100/Ecommerce_Sales_Analysis')
-txt4('Telecom Churn Ratio Analyze', 'From the raw data of telecom take the analyzation about churn in the region, area, sales, profit and reasons of churning', 'http://')
+txt4('Telecom Churn Ratio Analyze', 'From the raw data of telecom take the analyzation about churn in the region, area, sales, profit and reasons of churning', 'https://github.com/uzairrajput100/Churn_Prediction')
+txt4('LinkedIn Message Automation', 'This help in Marketing to automate the LinkedIn messages to particular industry with different messages', 'https://github.com/uzairrajput100/automation')
+txt4('AI Attendance Management System', 'System recognize face from CCTV camera and mark employee attendance with the help of computer vision, ML and AI', 'https://github.com/uzairrajput100/AI_attendance')
 
 
 #####################
@@ -169,8 +160,8 @@ st.markdown('''
 txt3('Programming', '`Python`')
 txt3('Data processing/wrangling', '`pandas`, `numpy`')
 txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`')
-txt3('Machine Learning', '`scikit-learn`')
-txt3('Deep Learning', '`TensorFlow`')
+txt3('Machine Learning', '`scikit-learn`, `PyTorch`, `OpenCV`')
+txt3('Deep Learning', '`TensorFlow`, `Keras`, `SciPy`')
 txt3('Web development', '`Flask`, `HTML`, `CSS`')
 txt3('Model deployment', '`streamlit`, `Heroku`, `AWS`')
 
