@@ -176,7 +176,6 @@ txt2('Email', 'uzairrajput100@gmail.com')
 txt2('Phone', '+92-333-6611988')
 
 if st.button("Download as PDF"):
-    @st.cache
     def get_html():
         return st.get_static_html()
 
