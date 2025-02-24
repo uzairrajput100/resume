@@ -181,4 +181,4 @@ if st.button("Download as PDF"):
 
     # Use pdfkit to generate the PDF from the HTML
     config = pdfkit.configuration(wkhtmltopdf='Downloads')
-    pdfkit.from_string(html, "your_resume.pdf", configuration=config, options={"page-size": "A4"}
+    pdfkit.from_string(html, "your_resume.pdf", configuration=config, options={"page-size": "A4"})
