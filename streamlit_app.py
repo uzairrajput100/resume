@@ -177,7 +177,7 @@ txt2('Phone', '+92-333-6611988')
 
 if st.button("Download as PDF"):
     # Get the HTML of the resume app
-    html = st.components.v1.html("<html>" + st.get_page_html() + "</html>")
+    html = "<html>" + st.get_page_html() + "</html>"
 
     # Use pdfkit to generate the PDF from the HTML
     config = pdfkit.configuration(wkhtmltopdf='Downloads')
