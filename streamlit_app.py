@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+from streamlit_to_pdf import streamlit_to_pdf
 
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
@@ -173,3 +174,6 @@ txt2('LinkedIn', 'https://www.linkedin.com/in/uzair-ahmed-630b0a53/')
 txt2('GitHub', 'https://github.com/uzairrajput100')
 txt2('Email', 'uzairrajput100@gmail.com')
 txt2('Phone', '+92-333-6611988')
+
+if st.button("Download as PDF"):
+    streamlit_to_pdf("your_resume.pdf")
